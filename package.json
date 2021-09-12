@@ -1,0 +1,19 @@
+{
+  "name": "kodo-assessment-api",
+  "version": "1.0.0",
+  "description": "kodo assessment api",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jayanth Nimmalapalli",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
