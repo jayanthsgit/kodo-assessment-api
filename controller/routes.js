@@ -11,7 +11,7 @@ router.get('/health', (req, res) => {
 router.get('/data', (req, res) => {
     if(data){
     res.status(200).send({
-        data: data
+        data
     })
     }
     else{
